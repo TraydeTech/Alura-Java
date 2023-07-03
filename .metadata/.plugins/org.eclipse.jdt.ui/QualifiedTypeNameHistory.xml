@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="projetoOrientacaoObjeto.Carro"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="projetoOrientacaoObjeto.Funcionario"/>
+    <fullyQualifiedTypeName name="procetoHerenca.Carro"/>
+    <fullyQualifiedTypeName name="procetoHerenca.Veiculo"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Gerente"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="ContaPoupanca"/>
+</qualifiedTypeNameHistroy>
