@@ -18,22 +18,23 @@ public class Main {
 		
 		//  COMANDO DE ENTRADA DE DASDOS "LEIA"
 		
-		Scanner leia = new Scanner(System.in);
+		try (Scanner leia = new Scanner(System.in)) {
+			String nome = "";
+			
+			
+			// CAPTURANDO DADOS NO CONSOLE
+			
+			
+			System.out.println("Digite o seu nome");
+			nome = leia.next();
+			
+			System.out.println("Olá, " + nome);
+		}
 		
 		
 		
 		// DECLARAR VARIAAVEL NO "JAVA"
-		
-		String nome = "";
-		
-		
-		// CAPTURANDO DADOS NO CONSOLE
-		
-		
-		System.out.println("Digite o seu nome");
-		nome = leia.next();
-		
-		System.out.println("Olá, " + nome);
+
 		
 		
 		

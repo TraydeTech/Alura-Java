@@ -1,14 +1,13 @@
 
-public class Funcionario {
+// NAO PODE INSTANCIAR DESSA CLASSSE, PQ E OBSTRATO
+public abstract class Funcionario {
 
 	private String nome;
 	private String cpf;
 	private double salario;
 	
-
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+//METODO SEM CORPO
+	public abstract double getBonificacao();
 
 	public String getNome() {
 		return nome;

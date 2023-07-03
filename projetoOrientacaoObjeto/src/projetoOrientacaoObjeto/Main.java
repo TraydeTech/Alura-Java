@@ -40,29 +40,27 @@ public class Main {
 		System.out.println("-----------------------------\n");
 		
 		
-		Scanner leia = new Scanner(System.in);
-		Carro carro3 = new Carro();
-		
-		
-		
-		System.out.println("Digite a cor do carro: ");
-		carro3.setCor(leia.next());
-		
-		System.out.println("Digite o modelo do carro: ");
-		carro3.setModelo(leia.next());
-		
-		System.out.println("Digite o Ano: ");
-		carro3.setAno(leia.nextInt());
-		
-		
-		System.out.println("-----------------------------\n");
-		
-		System.out.println("**** Dados do Veículo 3 ****");
-		System.out.println("Cor: " + carro3.getCor() );
-		System.out.println("Modelo: " + carro3.getModelo() );
-		System.out.println("Ano: " + carro3.getAno());
-		
-		
+		try (Scanner leia = new Scanner(System.in)) {
+			Carro carro3 = new Carro();
+			
+			
+			System.out.println("Digite a cor do carro: ");
+			carro3.setCor(leia.next());
+			
+			System.out.println("Digite o modelo do carro: ");
+			carro3.setModelo(leia.next());
+			
+			System.out.println("Digite o Ano: ");
+			carro3.setAno(leia.nextInt());
+			
+			
+			System.out.println("-----------------------------\n");
+			
+			System.out.println("**** Dados do Veículo 3 ****");
+			System.out.println("Cor: " + carro3.getCor() );
+			System.out.println("Modelo: " + carro3.getModelo() );
+			System.out.println("Ano: " + carro3.getAno());
+		}
 		System.out.println("-----------------------------\n");
 		
 		

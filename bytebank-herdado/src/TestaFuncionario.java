@@ -4,7 +4,7 @@ public class TestaFuncionario {
 	
 	public static void main(String[] args) {
 		
-		Funcionario jeff = new Funcionario();
+		Gerente jeff = new Gerente();
 		jeff.setNome("Jeff Trayde");
 		jeff.setCpf("976507499-91");
 		jeff.setSalario(2600.00);

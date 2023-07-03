@@ -8,8 +8,6 @@ public class TestePontoFlutuente {
 		double salario = 1250.70;
 		System.out.println("Meu salario é " + salario);
 		
-		double idade = 37;
-		
 		double divisao = 3.14 /2;
 		System.out.println(divisao);
 		

@@ -22,7 +22,6 @@ public class Carro extends Veiculo{
 	}
 	
 	public void setAno() {
-		this.ano = ano;
 		
 	}
 	
