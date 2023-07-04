@@ -3,6 +3,10 @@
 public class TestaFuncionario {
 	
 	public static void main(String[] args) {
+
+		// Cliente cliente = new Cliente();
+		// cliente.setSalario(3000.00);
+
 		
 		Gerente jeff = new Gerente();
 		jeff.setNome("Jeff Trayde");

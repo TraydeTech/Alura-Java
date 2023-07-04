@@ -5,6 +5,8 @@ public abstract class Funcionario {
 	private String nome;
 	private String cpf;
 	private double salario;
+
+	
 	
 //METODO SEM CORPO
 	public abstract double getBonificacao();
